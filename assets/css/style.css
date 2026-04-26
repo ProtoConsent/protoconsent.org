@@ -625,6 +625,14 @@ footer {
   margin-bottom: 24px;
 }
 
+.article-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 0 24px;
+}
+
 .article-section {
   margin-bottom: 24px;
 }
