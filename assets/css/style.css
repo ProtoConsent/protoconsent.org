@@ -1366,6 +1366,7 @@ span.store-badge-pending img {
   font-size: 13px;
   color: var(--pc-muted);
   margin-top: 4px;
+  margin-bottom: 12px;
 }
 
 .store-badges-stack {
