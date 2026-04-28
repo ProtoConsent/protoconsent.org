@@ -1332,6 +1332,15 @@ footer {
   color: var(--pc-muted);
 }
 
+.store-badge-compat {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: var(--pc-muted);
+  margin-top: 4px;
+}
+
 .store-badges-stack {
   flex-direction: column;
   align-items: center;

@@ -27,6 +27,7 @@ Static HTML/CSS served via GitHub Pages. No build step, no dependencies.
 
 - **Project website**: [protoconsent.org](https://protoconsent.org)
 - **Main repository**: [github.com/ProtoConsent/ProtoConsent](https://github.com/ProtoConsent/ProtoConsent)
+- **Chrome Web Store**: [Install ProtoConsent](https://chromewebstore.google.com/detail/protoconsent/dkcdkdcclhofocmkecccmikkfmfgfdlb)
 - **Data repository**: [github.com/ProtoConsent/data](https://github.com/ProtoConsent/data)
 - **Demo site**: [demo.protoconsent.org](https://demo.protoconsent.org)
 
