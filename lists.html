@@ -72,12 +72,15 @@
               <div class="card-inset">
               <h2 id="combined-heading">One URL, full coverage</h2>
               <p>
-                Pre-combined profiles with domains deduplicated across purposes. For most users, this is the easiest option.
+                Pre-combined profiles with domains deduplicated across purposes. Each list comes in two versions:
+                <strong>Standard</strong> (curated, lower false-positive risk) and
+                <strong>Extended</strong> (broader coverage, higher chance of overblocking).
               </p>
               <table class="policy-table" aria-label="Combined blocklist subscription URLs">
                 <thead>
                   <tr>
                     <th>Profile</th>
+                    <th>Version</th>
                     <th>ABP</th>
                     <th>AdGuard</th>
                     <th>Hosts</th>
@@ -87,7 +90,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Core</td>
+                    <td rowspan="2">Core</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core.txt" aria-label="Core ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_core.txt" aria-label="Core ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core.txt" aria-label="Core AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_core.txt" aria-label="Core AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core.txt" aria-label="Core Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_core.txt" aria-label="Core Hosts, mirror">M2</a></td>
@@ -95,12 +99,29 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_core.json" aria-label="Core JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_core.json" aria-label="Core JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Full</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_core_extended.txt" aria-label="Core Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_core_extended.txt" aria-label="Core Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_core_extended.txt" aria-label="Core Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_core_extended.txt" aria-label="Core Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_core_extended.txt" aria-label="Core Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_core_extended.txt" aria-label="Core Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core_extended.txt" aria-label="Core Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_core_extended.txt" aria-label="Core Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_core_extended.json" aria-label="Core Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_core_extended.json" aria-label="Core Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Full</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_full.txt" aria-label="Full ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_full.txt" aria-label="Full ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_full.txt" aria-label="Full AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_full.txt" aria-label="Full AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_full.txt" aria-label="Full Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_full.txt" aria-label="Full Hosts, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_full.txt" aria-label="Full Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_full.txt" aria-label="Full Domains, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_full.json" aria-label="Full JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_full.json" aria-label="Full JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_full_extended.txt" aria-label="Full Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_full_extended.txt" aria-label="Full Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_full_extended.txt" aria-label="Full Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_full_extended.txt" aria-label="Full Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_full_extended.txt" aria-label="Full Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_full_extended.txt" aria-label="Full Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_full_extended.txt" aria-label="Full Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_full_extended.txt" aria-label="Full Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_full_extended.json" aria-label="Full Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_full_extended.json" aria-label="Full Extended JSON, mirror">M2</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -118,12 +139,13 @@
               <div class="card-title">Per-purpose lists</div>
               <h2 id="purpose-heading">Granular control</h2>
               <p>
-                Subscribe only to the purposes you want to block. Each list is independent and they don't overlap.
+                Subscribe only to the purposes you want to block. Each list is independent and they don't overlap. Standard and Extended versions available.
               </p>
               <table class="policy-table" aria-label="Per-purpose blocklist subscription URLs">
                 <thead>
                   <tr>
                     <th>Purpose</th>
+                    <th>Version</th>
                     <th>ABP</th>
                     <th>AdGuard</th>
                     <th>Hosts</th>
@@ -133,7 +155,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Ads</td>
+                    <td rowspan="2">Ads</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads.txt" aria-label="Ads ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_ads.txt" aria-label="Ads ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads.txt" aria-label="Ads AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_ads.txt" aria-label="Ads AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads.txt" aria-label="Ads Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_ads.txt" aria-label="Ads Hosts, mirror">M2</a></td>
@@ -141,7 +164,16 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_ads.json" aria-label="Ads JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_ads.json" aria-label="Ads JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Analytics</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_ads_extended.txt" aria-label="Ads Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_ads_extended.txt" aria-label="Ads Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_ads_extended.txt" aria-label="Ads Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_ads_extended.txt" aria-label="Ads Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_ads_extended.txt" aria-label="Ads Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_ads_extended.txt" aria-label="Ads Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_ads_extended.txt" aria-label="Ads Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_ads_extended.txt" aria-label="Ads Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_ads_extended.json" aria-label="Ads Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_ads_extended.json" aria-label="Ads Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Analytics</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics.txt" aria-label="Analytics ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_analytics.txt" aria-label="Analytics ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics.txt" aria-label="Analytics AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_analytics.txt" aria-label="Analytics AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics.txt" aria-label="Analytics Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_analytics.txt" aria-label="Analytics Hosts, mirror">M2</a></td>
@@ -149,7 +181,16 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_analytics.json" aria-label="Analytics JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_analytics.json" aria-label="Analytics JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Personalization</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_analytics_extended.txt" aria-label="Analytics Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_analytics_extended.txt" aria-label="Analytics Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_analytics_extended.txt" aria-label="Analytics Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_analytics_extended.txt" aria-label="Analytics Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_analytics_extended.txt" aria-label="Analytics Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_analytics_extended.txt" aria-label="Analytics Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_analytics_extended.txt" aria-label="Analytics Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_analytics_extended.txt" aria-label="Analytics Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_analytics_extended.json" aria-label="Analytics Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_analytics_extended.json" aria-label="Analytics Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Personalization</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_personalization.txt" aria-label="Personalization ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_personalization.txt" aria-label="Personalization ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_personalization.txt" aria-label="Personalization AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_personalization.txt" aria-label="Personalization AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_personalization.txt" aria-label="Personalization Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_personalization.txt" aria-label="Personalization Hosts, mirror">M2</a></td>
@@ -157,7 +198,16 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_personalization.json" aria-label="Personalization JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_personalization.json" aria-label="Personalization JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Third Parties</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_personalization_extended.txt" aria-label="Personalization Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_personalization_extended.txt" aria-label="Personalization Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_personalization_extended.txt" aria-label="Personalization Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_personalization_extended.txt" aria-label="Personalization Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_personalization_extended.txt" aria-label="Personalization Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_personalization_extended.txt" aria-label="Personalization Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_personalization_extended.txt" aria-label="Personalization Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_personalization_extended.txt" aria-label="Personalization Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_personalization_extended.json" aria-label="Personalization Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_personalization_extended.json" aria-label="Personalization Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Third Parties</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_third_parties.txt" aria-label="Third Parties ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_third_parties.txt" aria-label="Third Parties ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_third_parties.txt" aria-label="Third Parties AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_third_parties.txt" aria-label="Third Parties AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_third_parties.txt" aria-label="Third Parties Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_third_parties.txt" aria-label="Third Parties Hosts, mirror">M2</a></td>
@@ -165,7 +215,16 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_third_parties.json" aria-label="Third Parties JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_third_parties.json" aria-label="Third Parties JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Advanced Tracking</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_third_parties_extended.txt" aria-label="Third Parties Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_third_parties_extended.json" aria-label="Third Parties Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_third_parties_extended.json" aria-label="Third Parties Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Advanced Tracking</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_advanced_tracking.txt" aria-label="Advanced Tracking Hosts, mirror">M2</a></td>
@@ -173,12 +232,29 @@
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_advanced_tracking.json" aria-label="Advanced Tracking JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_advanced_tracking.json" aria-label="Advanced Tracking JSON, mirror">M2</a></td>
                   </tr>
                   <tr>
-                    <td>Security</td>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_advanced_tracking_extended.txt" aria-label="Advanced Tracking Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_advanced_tracking_extended.json" aria-label="Advanced Tracking Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_advanced_tracking_extended.json" aria-label="Advanced Tracking Extended JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Security</td>
+                    <td>Standard</td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_security.txt" aria-label="Security ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_security.txt" aria-label="Security ABP, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_security.txt" aria-label="Security AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_security.txt" aria-label="Security AdGuard, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_security.txt" aria-label="Security Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_security.txt" aria-label="Security Hosts, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_security.txt" aria-label="Security Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_security.txt" aria-label="Security Domains, mirror">M2</a></td>
                     <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_security.json" aria-label="Security JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_security.json" aria-label="Security JSON, mirror">M2</a></td>
+                  </tr>
+                  <tr>
+                    <td>Extended</td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/abp/protoconsent_security_extended.txt" aria-label="Security Extended ABP, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/abp/protoconsent_security_extended.txt" aria-label="Security Extended ABP, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/adguard/protoconsent_security_extended.txt" aria-label="Security Extended AdGuard, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/adguard/protoconsent_security_extended.txt" aria-label="Security Extended AdGuard, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/hosts/protoconsent_security_extended.txt" aria-label="Security Extended Hosts, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/hosts/protoconsent_security_extended.txt" aria-label="Security Extended Hosts, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_security_extended.txt" aria-label="Security Extended Domains, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/domains/protoconsent_security_extended.txt" aria-label="Security Extended Domains, mirror">M2</a></td>
+                    <td><a href="https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/json/protoconsent_security_extended.json" aria-label="Security Extended JSON, CDN">Link</a> | <a href="https://raw.githubusercontent.com/ProtoConsent/data/main/lists/json/protoconsent_security_extended.json" aria-label="Security Extended JSON, mirror">M2</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -248,7 +324,7 @@
               <p><strong>NextDNS / ControlD</strong> (Denylist, add domain list):</p>
               <div class="code-block">https://cdn.jsdelivr.net/gh/ProtoConsent/data@main/lists/domains/protoconsent_core.txt</div>
               <p>
-                Replace <code>protoconsent_core</code> with <code>protoconsent_full</code> to include security (phishing/malware), or use individual purpose list names for granular control.
+                Replace <code>protoconsent_core</code> with <code>protoconsent_full</code> to include security (phishing/malware), or use individual purpose list names for granular control. Append <code>_extended</code> before the file extension for broader coverage (e.g. <code>protoconsent_core_extended.txt</code>).
               </p>
               </div>
             </div>
@@ -262,6 +338,7 @@
             </p>
             <p>
               <strong>Link</strong> points to jsDelivr CDN (recommended). <strong>M2</strong> points to GitHub raw (fallback). Both work as subscription URLs.
+                <strong>Standard</strong> lists use curated multi-source classification (lower false-positive risk). <strong>Extended</strong> lists add single-source domains for broader coverage.
             </p>
             <p>
               License: GPL-3.0-or-later. Feedback on coverage, categorization, or false positives is welcome via <a href="https://github.com/ProtoConsent/data/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>.
