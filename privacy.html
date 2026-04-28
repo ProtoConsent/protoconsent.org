@@ -104,7 +104,7 @@
               <li>Strips known tracking parameters from URLs (e.g. <code>utm_source</code>, <code>fbclid</code>) using browser redirect rules. The original URL is rewritten locally before the request is sent. No data is collected or transmitted.</li>
               <li>Fetches <code>.well-known/protoconsent.json</code> from sites when you open the side panel in the popup, to display their declared data practices (cached locally, never forwarded)</li>
               <li>Queries matched blocking rules to display request counts in the popup</li>
-              <li>Downloads optional third-party enhanced list data from public CDN sources (jsDelivr, GitHub) when you activate Enhanced Protection lists. Remote fetching requires your explicit consent (opt-in during onboarding or in Purpose Settings). Only the list file is fetched - no personal data, cookies, or identifiers are sent. Downloaded lists are stored locally in your browser.</li>
+              <li>Downloads optional third-party enhanced list data from public CDN sources (jsDelivr, GitHub) when Enhanced Protection is enabled. Sync is on by default and can be disabled in Purpose Settings. Lists refresh automatically on a configurable interval (default: every 24 hours). Only the list file is fetched - no personal data, cookies, or identifiers are sent. Downloaded lists are stored locally in your browser.</li>
             </ul>
           </section>
 
@@ -149,6 +149,10 @@
                 <tr>
                   <td><code>unlimitedStorage</code></td>
                   <td>Store downloaded enhanced list data locally (lists can be large)</td>
+                </tr>
+                <tr>
+                  <td><code>alarms</code></td>
+                  <td>Schedule periodic refresh of downloaded enhanced lists in the background</td>
                 </tr>
                 <tr>
                   <td><code>host_permissions (&lt;all_urls&gt;)</code></td>
