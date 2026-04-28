@@ -1289,6 +1289,22 @@ footer {
 
 /* --- Store badges --- */
 
+.store-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.store-badges-row + .store-badges-row {
+  margin-top: 10px;
+}
+
+.store-badges-secondary {
+  gap: 16px;
+}
+
 .store-badges {
   display: flex;
   flex-wrap: wrap;
@@ -1319,9 +1335,20 @@ footer {
   background: var(--pc-white);
   font-size: 13px;
   color: var(--pc-muted);
+  text-decoration: none;
 }
 
-.store-badge-pending img {
+a.store-badge-pending {
+  color: var(--pc-text);
+}
+
+a.store-badge-pending img {
+  width: auto;
+  height: 22px;
+  filter: none;
+}
+
+span.store-badge-pending img {
   width: 20px;
   height: 20px;
   filter: grayscale(1) opacity(0.5);
