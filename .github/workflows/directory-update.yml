@@ -12,11 +12,11 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Parse domain from issue
         id: parse
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const body = context.payload.issue.body || '';
@@ -39,7 +39,7 @@ jobs:
       - name: Fetch and validate declaration
         id: validate
         if: steps.parse.outputs.domain
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const https = require('https');
@@ -83,7 +83,7 @@ jobs:
 
       - name: Update sites.json
         if: steps.validate.outputs.version
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
