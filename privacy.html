@@ -105,6 +105,7 @@
               <li>Fetches <code>.well-known/protoconsent.json</code> from sites when you open the side panel in the popup, to display their declared data practices (cached locally, never forwarded)</li>
               <li>Queries matched blocking rules to display request counts in the popup</li>
               <li>Downloads optional third-party enhanced list data from public CDN sources (jsDelivr, GitHub) when Enhanced Protection is enabled. Sync is on by default and can be disabled in Purpose Settings. Lists refresh automatically on a configurable interval (default: every 24 hours). Only the list file is fetched - no personal data, cookies, or identifiers are sent. Downloaded lists are stored locally in your browser.</li>
+              <li>Provides a right-click context menu on the extension icon for quick access to operating mode, feature toggles (cookie banner management, cosmetic filters, privacy signals), site whitelist, and settings. No data is collected; all actions modify local preferences only.</li>
             </ul>
           </section>
 
@@ -153,6 +154,10 @@
                 <tr>
                   <td><code>alarms</code></td>
                   <td>Schedule periodic refresh of downloaded enhanced lists in the background</td>
+                </tr>
+                <tr>
+                  <td><code>contextMenus</code></td>
+                  <td>Add a right-click menu on the extension icon for quick access to mode switching, feature toggles, and site whitelist</td>
                 </tr>
                 <tr>
                   <td><code>host_permissions (&lt;all_urls&gt;)</code></td>
