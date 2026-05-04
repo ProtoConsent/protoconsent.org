@@ -8,7 +8,13 @@
 
 <p align="center"><em>User-side, purpose-based consent for the web</em></p>
 
-Source for [protoconsent.org](https://protoconsent.org), the official website for the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) browser extension.
+<p align="center">
+  <a href="https://github.com/ProtoConsent/ProtoConsent"><strong>Browser extension</strong></a> &middot;
+  <a href="https://github.com/ProtoConsent/data"><strong>Blocklists</strong></a> &middot;
+  <a href="https://protoconsent.org"><strong>Website</strong></a>
+</p>
+
+Source for [protoconsent.org](https://protoconsent.org), the official website for the [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) browser extension and [open-source purpose blocklists](https://github.com/ProtoConsent/Data).
 
 ## What this site covers
 
